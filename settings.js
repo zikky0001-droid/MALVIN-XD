@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~lndlBahL#0nH2atgdoZJlZ-52TWg-D5ODHUY_4KHn1V1sdBMPE64",
+SESSION_ID: process.env.SESSION_ID || "malvin~Y7NRXYqB#oUmIWmcu6Z79CGOrMQBBxFKlQ1OwKknq4zQ0zIwIg2w",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -19,7 +19,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "kick", // "kick", "mute", or "none"
+    LINK_ACTION: "none", // "kick", "mute", or "none"
 
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -37,7 +37,7 @@ LINK_WHITELIST: "youtube.com,github.com",
        WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
       ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -82,7 +82,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-                ANTI_BAD: process.env.ANTI_BAD || "false",
+                ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
@@ -94,7 +94,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
